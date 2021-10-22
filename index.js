@@ -36,7 +36,7 @@ displayAdvice.addEventListener("click",random)
 function random(){
     for(let i=0; i<advice.length; i++){
     
-    let ranNum = Math.floor(Math.random()*5)
+    let ranNum = Math.floor(Math.random()*advice.length)
     storeAdvice.textContent = advice[ranNum]}
 }
  
